@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+out/
+release/
+coverage/
+*.tsbuildinfo
+.vite/
+.cache/
+
+# Native helper build output
+target/
+
+# Logs
+*.log
+logs/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+*.crt
+*.spc
+*.pvk
+*.snk
+secrets/
+
+# Recordings and media made while testing. Never commit screen captures:
+# they can show private windows, notifications or tokens on screen.
+# Demo media for the README goes in docs/assets/ on purpose.
+*.mp4
+*.webm
+*.mkv
+*.mov
+*.avi
+*.gif
+*.wav
+*.m4a
+*.aac
+*.opus
+*.flac
+recordings/
+captures/
+!docs/assets/**
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+*.swp
+.vscode/*
+!.vscode/extensions.json
+
+# Local AI assistant settings
+.claude/settings.local.json
+CLAUDE.local.md
